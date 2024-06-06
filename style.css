@@ -1,0 +1,344 @@
+html {
+  font-size: 0.625rem;
+}
+
+body {
+  color: #3c3c3c;
+  background-color: rgb(245, 245, 235);
+  line-height: 1.7;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: auto 10vw;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+section:not(:first-child) {
+  margin-top: 120px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+.title::before {
+  content: "";
+  height: 1px;
+  flex-grow: 0.3;
+  background-color: #3c3c3c;
+  margin-right: 3rem;
+}
+
+.btn {
+  margin-top: 3rem;
+}
+
+.btn {
+  width: 300px;
+  height: 56px;
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  padding: 2rem 12rem;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background-color: #cac7c7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+  margin-top: 35px;
+}
+
+.nav ul li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.nav ul li:first-child {
+  margin-left: 0;
+}
+
+.fv {
+  background-image: url(image/aboutus.jpg);
+  min-height: 90vh;
+  background-size: cover;
+
+  position: relative;
+}
+
+.keymsgs {
+  position: absolute;
+  left: 30vh;
+  bottom: 10vh;
+}
+
+.keymsg {
+  font-size: 3.2rem;
+  font-weight: 500;
+  padding: 0.3em 0.6em;
+  background-color: #fff;
+}
+
+.aboutus-img {
+  width: 437px;
+  margin-right: 3rem;
+}
+
+.aboutus-img img {
+  width: 100%;
+}
+
+.aboutus .contents .msg {
+  max-width: 42rem;
+}
+
+.aboutus .contents .msg h2 {
+  margin-bottom: 20px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.products .contents {
+  display: flex;
+}
+
+.product-bg {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.product-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.stuffedtoys {
+  position: relative;
+}
+
+.woodentoys {
+  position: relative;
+}
+
+.products-info {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.products-info h2 {
+  color: rgb(207, 207, 203);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ranking-item {
+  width: 250px;
+  position: relative;
+}
+
+.ranking-item img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.ranking-info div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.age {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3c3c3c;
+  text-align: center;
+  width: 75px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 100vh;
+}
+
+.rankno {
+  position: absolute;
+  right: 0px;
+  width: 55px;
+}
+
+.rankno img {
+  width: 100%;
+}
+
+.slider {
+  margin-top: 3rem;
+}
+
+.slider .slick-slide {
+  margin: 0 15px;
+}
+
+.slider-prev::before,
+.slider-next::before {
+  color: #3c3c3c !important;
+}
+
+.slick-dots {
+  bottom: initial !important;
+  margin-top: 3rem !important;
+}
+
+.online-bg img {
+  width: 100%;
+  height: 650px;
+}
+
+.onlinecontents {
+  position: relative;
+}
+
+.online-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #fff;
+}
+
+.location .contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location .infomation div {
+  display: flex;
+}
+
+.location h3 {
+  display: block;
+  margin: 10px auto;
+  font-size: 3.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.location h5 {
+  font-size: 1.4rem;
+  width: 6em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.Openinghours div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.infomation > div:not(:first-child) {
+  margin-top: 5px;
+}
+
+.location p {
+  margin-top: 22px;
+}
+
+.sns li {
+  width: 35px;
+  margin-right: 50px;
+}
+
+.sns li img {
+  width: 100%;
+}
+
+.sns ul {
+  display: flex;
+}
+
+.sns h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.sns li:not(:first-child) {
+  margin-left: 35px;
+}
+
+.sns {
+  margin-bottom: 60px;
+}
+
+footer {
+  background-color: #c0e4f2;
+  height: 80px;
+}
+
+small {
+  display: block;
+  text-align: center;
+  color: #3c3c3c;
+  padding-top: 30px;
+}
